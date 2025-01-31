@@ -1,0 +1,136 @@
+﻿  main.cpp
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(41,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(59,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(64,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(94,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(95,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(96,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(121,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(122,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(123,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(148,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(149,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(150,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(152,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(153,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(154,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(156,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(157,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(158,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(159,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(160,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(161,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(163,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(164,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(165,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(166,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(168,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(169,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(170,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(171,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(173,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(174,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(175,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Struct.h(176,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Include.h(29,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\Include.h(30,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\ImGui Setup.h(31,37): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\ImGui Setup.h(32,38): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\ImGui Setup.h(100,29): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\ImGui Setup.h(101,30): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\ImGui Setup.h(104,140): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\ImGui Setup.h(104,123): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\main.cpp(57,30): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\main.cpp(58,31): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\main.cpp(59,53): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\main.cpp(60,54): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\main.cpp(61,93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\MarvelRivals - FrameWork\main.cpp(61,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating code
+  2 of 1452 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    19 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  MarvelRivals - FrameWork.vcxproj -> C:\Users\Jook1\source\repos\MarvelRivals - FrameWork\x64\Release\MarvelRivals - FrameWork.exe

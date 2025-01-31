@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="main\Communication">
+      <UniqueIdentifier>{40057fd8-ee0a-4852-b594-00a5fb9036a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Structure">
+      <UniqueIdentifier>{b58f120e-5af9-46d5-ad7d-1fbc659cd70c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Interface">
+      <UniqueIdentifier>{fce85156-f3f0-4d72-85b6-dda1e98d22d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\ImGui">
+      <UniqueIdentifier>{d0b53695-68c0-4550-94c1-21aa8e870af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\ImGui\D3DX9">
+      <UniqueIdentifier>{104e443b-10a5-4b80-93a7-eeb9f09cf382}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Include\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>main\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Include\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui Setup.h">
+      <Filter>main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Include\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\D3DX9\d3dx9.h">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\D3DX9\d3dx9anim.h">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\D3DX9\d3dx9core.h">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\D3DX9\d3dx9effect.h">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\D3DX9\d3dx9math.h">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\D3DX9\d3dx9mesh.h">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\D3DX9\d3dx9shader.h">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\D3DX9\d3dx9shape.h">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\D3DX9\d3dx9tex.h">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\D3DX9\d3dx9xof.h">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ImGui\D3DX9\d3dx9.lib">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImGui\D3DX9\d3dx9math.inl">
+      <Filter>Include\ImGui\D3DX9</Filter>
+    </None>
+  </ItemGroup>
+</Project>
