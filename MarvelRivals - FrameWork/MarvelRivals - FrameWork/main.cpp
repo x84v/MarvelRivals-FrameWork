@@ -80,25 +80,7 @@ void MainLoop() {
 
 int main()
 {
-	if (IsConnected()) {
-		ProcessAddress = FindProcess(std::wstring(L"notepad.exe"));
-		if (ProcessAddress) {
-
-			printf("ProcessAddress: 0x%p\n", ProcessAddress);
-			system("pause");
-		}
-
-
-		BaseAddress = GetBaseAddress();
-		if (BaseAddress) {
-
-			printf("BaseAddress: 0x%p\n", BaseAddress);
-			system("pause");
-		}
-	}
-	system("pause");
-
-	/*Overlay.Name = RandomString(10).c_str();
+	Overlay.Name = RandomString(10).c_str();
 	if (Overlay.Name == NULL) {
 		MessageBoxA(0, "Failed to create Overlay.", "Error", MB_ICONERROR);
 		Sleep(3000);
@@ -109,5 +91,5 @@ int main()
 	DirectXInit();
 	while (TRUE) {
 		MainLoop();
-	}*/
+	}
 }
