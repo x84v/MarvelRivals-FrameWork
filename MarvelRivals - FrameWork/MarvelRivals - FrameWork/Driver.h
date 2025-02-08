@@ -1,50 +1,44 @@
 
-uintptr_t ProcessAddress;
+
 uintptr_t BaseAddress;
-struct _Communication
-{
-	BOOLEAN RequestBase;
-	BOOLEAN ReadMemory;
-	uintptr_t BaseAddress;
-	ULONG ProcessID;
-	UINT_PTR Address;
-	void* Output;
-	ULONGLONG Size;
+uintptr_t ProcessAddress;
+HANDLE DriverHandle;
+
+#define Read_Code CTL_CODE(FILE_DEVICE_UNKNOWN, 0x21, METHOD_BUFFERED, FILE_SPECIAL_ACCESS)
+#define Base_Code CTL_CODE(FILE_DEVICE_UNKNOWN, 0x22, METHOD_BUFFERED, FILE_SPECIAL_ACCESS)
+struct Request {
+	uintptr_t base_id;
+	uintptr_t process_id;
+	UINT_PTR address;
+	void* output;
+	ULONGLONG size;
 };
 
+bool FindHandle() {
+	DriverHandle = CreateFileW(L"\\\\.\\Interptr", GENERIC_READ | GENERIC_WRITE, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_EXISTING, 0, NULL);
+	if (!DriverHandle || (DriverHandle == INVALID_HANDLE_VALUE))
+		return false;
 
-typedef __int64(__fastcall* SysCallWin32)(void*);
-SysCallWin32 NtRIMObserve = nullptr;
-bool IsConnected()
-{
-	if (!NtRIMObserve)
-	{
-		const HMODULE win32u = GetModuleHandleA("win32u.dll");
-		if (!win32u)
-			return false;
-
-		NtRIMObserve = reinterpret_cast<SysCallWin32>(GetProcAddress(win32u, "NtRIMObserveNextInput"));
-	}
-	return NtRIMObserve;
+	return true;
 }
 
-ULONG64 GetBaseAddress()
-{
-	_Communication W = { 0 };
-	W.RequestBase = TRUE;
-	W.ProcessID = ProcessAddress;
-	NtRIMObserve(&W);
-	return W.BaseAddress;
+uintptr_t FindBaseImage() {
+	Request arguments = { 0 };
+	arguments.process_id = ProcessAddress;
+	if (!DeviceIoControl(DriverHandle, Base_Code, &arguments, sizeof(arguments),
+		&arguments, sizeof(arguments), NULL, NULL)) {
+		return 0;
+	}
+	return arguments.base_id;
 }
 
 void ReadPhysical(PVOID address, PVOID buffer, DWORD size) {
-	_Communication W = { 0 };
-	W.ReadMemory = TRUE;
-	W.ProcessID = ProcessAddress;
-	W.Size = size;
-	W.Address = (UINT_PTR)address;
-	W.Output = buffer;
-	NtRIMObserve(&W);
+	Request arguments = { 0 };
+	arguments.address = (ULONGLONG)address;
+	arguments.output = buffer;
+	arguments.size = size;
+	arguments.process_id = ProcessAddress;
+	DeviceIoControl(DriverHandle, Read_Code, &arguments, sizeof(arguments), nullptr, NULL, NULL, NULL);
 }
 
 template <typename T>
@@ -53,7 +47,6 @@ T Read(uint64_t address) {
 	ReadPhysical((PVOID)address, &buffer, sizeof(T));
 	return buffer;
 }
-
 
 INT32 FindProcess(const std::wstring& process_name) {
 	PROCESSENTRY32 pt;
