@@ -87,6 +87,26 @@ int main()
 		exit(2);
 	}
 
+	if (!FindHandle()) {
+	   MessageBoxA(0, "Failed to get Driver Handle", "Error", MB_ICONERROR);
+	   Sleep(3000);
+	   exit(2);
+        }
+
+       ProcessAddress = FindProcess(L"Marvel-Win64-Shipping.exe");
+       if (!ProcessAddress) {
+	   MessageBoxA(0, "Failed to get ProcessAddress", "Error", MB_ICONERROR);
+	   Sleep(3000);
+	   exit(2);
+       }
+
+       BaseAddress = FindBaseImage();
+       if (!BaseAddress) {
+	   MessageBoxA(0, "Failed to get BaseAddress", "Error", MB_ICONERROR);
+	   Sleep(3000);
+	   exit(2);
+       }
+
 	SetupOverlay();
 	DirectXInit();
 	while (TRUE) {
