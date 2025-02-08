@@ -3,6 +3,6 @@
 **(Part-2):** https://www.youtube.com/watch?v=xLMQsU8HzeA&t  
 External ImGui framework for my Marvel Rivals Tutorial (https://www.youtube.com/@Interptr)
 
-Driver: (IOCTL Communication)
-Mapper: (KdMapper)
+Driver: (IOCTL Communication)   
+Mapper: (KdMapper)   
 !To stay undetected, make sure to change the Mapper and Driver.!
