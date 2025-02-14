@@ -4,6 +4,7 @@ uintptr_t BaseAddress;
 uintptr_t ProcessAddress;
 HANDLE DriverHandle;
 
+#define Write_Code CTL_CODE(FILE_DEVICE_UNKNOWN, 0x20, METHOD_BUFFERED, FILE_SPECIAL_ACCESS)
 #define Read_Code CTL_CODE(FILE_DEVICE_UNKNOWN, 0x21, METHOD_BUFFERED, FILE_SPECIAL_ACCESS)
 #define Base_Code CTL_CODE(FILE_DEVICE_UNKNOWN, 0x22, METHOD_BUFFERED, FILE_SPECIAL_ACCESS)
 struct Request {
@@ -11,6 +12,7 @@ struct Request {
 	uintptr_t process_id;
 	UINT_PTR address;
 	void* output;
+	void* input;
 	ULONGLONG size;
 };
 
@@ -41,10 +43,26 @@ void ReadPhysical(PVOID address, PVOID buffer, DWORD size) {
 	DeviceIoControl(DriverHandle, Read_Code, &arguments, sizeof(arguments), nullptr, NULL, NULL, NULL);
 }
 
+void WritePhysical(PVOID address, PVOID buffer, DWORD size) {
+	Request arguments = { 0 };
+	arguments.address = (ULONGLONG)address;
+	arguments.input = buffer;
+	arguments.size = size;
+	arguments.process_id = ProcessAddress;
+	DeviceIoControl(DriverHandle, Write_Code, &arguments, sizeof(arguments), nullptr, NULL, NULL, NULL);
+}
+
 template <typename T>
 T Read(uint64_t address) {
 	T buffer{ };
 	ReadPhysical((PVOID)address, &buffer, sizeof(T));
+	return buffer;
+}
+
+template <typename T>
+T Write(uint64_t address, T buffer) {
+
+	WritePhysical((PVOID)address, &buffer, sizeof(T));
 	return buffer;
 }
 
