@@ -5,6 +5,10 @@ void Render() {
 	ImGui_ImplWin32_NewFrame();
 	ImGui::NewFrame();
 
+	if (GetAsyncKeyState(VK_INSERT) & 1) {
+		ImGuiMenu::ShowMenu = !ImGuiMenu::ShowMenu;
+	}
+	
 	//Rendering here!
 	//SetWindowLongW(Overlay.Hwnd, GWL_EXSTYLE, WS_EX_TOOLWINDOW);
 	//SetWindowLongW(Overlay.Hwnd, GWL_EXSTYLE, WS_EX_LAYERED | WS_EX_TRANSPARENT | WS_EX_TOOLWINDOW);
