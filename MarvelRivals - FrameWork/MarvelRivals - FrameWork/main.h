@@ -47,7 +47,7 @@
 
 //(MAKE SURE YOU UPDATE THE OFFSETS) 
 namespace Offsets { 
-	uintptr_t UWorld = 0xde2e8d0;
+	uintptr_t UWorld = 0xDE37EE0;
 	uintptr_t GameInstance = 0x270;
 	uintptr_t LocalPlayers = 0x40;
 	uintptr_t PlayerController = 0x38; //Inside UPlayer
@@ -76,4 +76,8 @@ namespace Offsets {
 	//Camera
 	uintptr_t APlayerCameraManager = 0x560; //APlayerController->PlayerCameraManager
 	uintptr_t CameraCache = 0x1a50; //FCameraCacheEntry CameraCachePrivate
+}
+
+namespace ImGuiMenu {
+	bool ShowMenu = 0;
 }
