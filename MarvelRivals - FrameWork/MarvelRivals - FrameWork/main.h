@@ -47,7 +47,7 @@
 
 //(MAKE SURE YOU UPDATE THE OFFSETS) 
 namespace Offsets { 
-	uintptr_t UWorld = 0xDE37EE0;
+	uintptr_t UWorld = 0x0DED1E10;
 	uintptr_t GameInstance = 0x270;
 	uintptr_t LocalPlayers = 0x40;
 	uintptr_t PlayerController = 0x38; //Inside UPlayer
