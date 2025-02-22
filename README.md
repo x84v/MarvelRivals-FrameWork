@@ -6,7 +6,7 @@
 External ImGui framework for my Marvel Rivals Tutorial (https://www.youtube.com/@Interptr)
 
 **Latest UWORLD Offset:**   
-**(UWorld = 0x0DED1E10)**    
+**(UWorld = 0xded1e10)**    
 
 **Driver:** (IOCTL Communication)   
 **Mapper:** (KdMapper)   
