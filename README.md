@@ -1,8 +1,8 @@
 
 **⭐(Need help creating an external cheat for Marvel Rivals?)⭐**  
-**(Part-1):** https://www.youtube.com/watch?v=x0OY6jgyYGA   
-**(Part-2):** https://www.youtube.com/watch?v=xLMQsU8HzeA   
-External ImGui framework for my Marvel Rivals Tutorial (https://www.youtube.com/@Interptr)
+**(Part-1):** *Video taken down!*   
+**(Part-2):** *Video taken down!*   
+Join my discord: https://discord.gg/vVJX5MddKP
 
 **Latest UWORLD Offset:**   
 **(UWorld = 0xded1e10)**    
