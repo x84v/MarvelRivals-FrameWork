@@ -3,6 +3,7 @@
 **(Part-1):** *Video taken down!*   
 **(Part-2):** *Video taken down!*   
 Join my discord: https://discord.gg/vVJX5MddKP
+Full source: https://www.patreon.com/c/lnterptr
 
 **Latest UWORLD Offset:**   
 **(UWorld = 0xded1e10)**    
