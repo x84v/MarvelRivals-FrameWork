@@ -1,5 +1,5 @@
 
-**⭐(Need help creating an external cheat for Marvel Rivals?)⭐**  
+**Need help creating an external cheat for Marvel Rivals?**  
 **(Part-1):** *Video taken down!*   
 **(Part-2):** *Video taken down!*   
 Join my discord: https://discord.gg/vVJX5MddKP   
