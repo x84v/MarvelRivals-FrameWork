@@ -5,9 +5,5 @@
 Full source: https://www.patreon.com/c/lnterptr
 
 **Latest UWORLD Offset:**   
-**(UWorld = 0xded1e10)**    
-
-**Driver:** (IOCTL Communication)   
-**Mapper:** (KdMapper)   
-*!To stay undetected, make sure to change the Mapper and Driver.!*
+**(UWorld = 0xded1e10) - Outdated**    
 
